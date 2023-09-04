@@ -1,8 +1,8 @@
 var randomNumber1=Math.floor(Math.random()*6)+1;
-var randomDiceSource1="./images/dice"+randomNumber1+".png";
+var randomDiceSource1="dice"+randomNumber1+".png";
 
 var randomNumber2=Math.floor(Math.random()*6)+1;
-var randomDiceSource2="./images/dice"+randomNumber2+".png";
+var randomDiceSource2="dice"+randomNumber2+".png";
 
 document.querySelector(".img1").setAttribute("src", randomDiceSource1);
 document.querySelector(".img2").setAttribute("src", randomDiceSource2);
